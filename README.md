@@ -2,6 +2,9 @@
 
 > 大模型 · 图深度学习 · 编程实战 —— 互联网大厂高级算法工程师的技术博客
 
+[![Deploy](https://github.com/songshuNLP/blog/actions/workflows/deploy.yml/badge.svg)](https://github.com/songshuNLP/blog/actions)
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](LICENSE)
+
 📖 阅读地址：**https://songshuNLP.github.io/blog/**
 
 ## 📚 文章目录

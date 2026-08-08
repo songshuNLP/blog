@@ -37,5 +37,9 @@ export default defineConfig({
     darkModeSwitchLabel: '外观',
     sidebarMenuLabel: '菜单',
     lastUpdatedText: '更新于',
+    footer: {
+      message: '基于 VitePress · 内容采用 CC BY 4.0 许可',
+      copyright: '© 2026 松鼠NLP · 公众号「松鼠NLP」· songshunlp.com',
+    },
   },
 })

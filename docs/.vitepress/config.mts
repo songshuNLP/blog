@@ -9,6 +9,12 @@ export default defineConfig({
     ['link', { rel: 'icon', href: '/blog/logo.jpg' }],
     ['meta', { property: 'og:title', content: '松鼠NLP 博客' }],
     ['meta', { property: 'og:description', content: '大模型、图深度学习、编程实战的硬核技术博客' }],
+    ['meta', { property: 'og:image', content: 'https://songshunlp.github.io/blog/logo.jpg' }],
+    ['meta', { property: 'og:url', content: 'https://songshunlp.github.io/blog/' }],
+    ['meta', { property: 'og:type', content: 'website' }],
+    ['meta', { property: 'og:site_name', content: '松鼠NLP 博客' }],
+    ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
+    ['meta', { name: 'twitter:image', content: 'https://songshunlp.github.io/blog/logo.jpg' }],
   ],
   lastUpdated: true,
   themeConfig: {

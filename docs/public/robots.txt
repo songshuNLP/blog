@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://songshunlp.github.io/blog/sitemap.xml

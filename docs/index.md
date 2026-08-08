@@ -6,7 +6,7 @@ hero:
   text: 大模型 · 图深度学习 · 编程实战
   tagline: 互联网大厂高级算法工程师，《图深度学习从理论到实践》《快速部署大模型》作者
   image:
-    src: /blog/logo.jpg
+    src: /logo.jpg
     alt: 松鼠NLP
   actions:
     - theme: brand

@@ -12,7 +12,7 @@ export default defineConfig({
     ['meta', { property: 'og:image', content: 'https://songshunlp.github.io/blog/logo.jpg' }],
     ['meta', { property: 'og:url', content: 'https://songshunlp.github.io/blog/' }],
     ['meta', { property: 'og:type', content: 'website' }],
-    ['meta', { property: 'og:site_name', content: '松鼠NLP 博客' }],
+    ['meta', { property: 'og:site_name', content: '兔老板工作室 博客' }],
     ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
     ['meta', { name: 'twitter:image', content: 'https://songshunlp.github.io/blog/logo.jpg' }],
   ],
@@ -39,7 +39,7 @@ export default defineConfig({
     lastUpdatedText: '更新于',
     footer: {
       message: '基于 VitePress · 内容采用 CC BY 4.0 许可',
-      copyright: '© 2026 松鼠NLP · 公众号「松鼠NLP」· songshunlp.com',
+      copyright: '© 2026 兔老板工作室 · 公众号「松鼠NLP」· songshunlp.com',
     },
   },
 })

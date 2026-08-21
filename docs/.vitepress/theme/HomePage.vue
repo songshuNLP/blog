@@ -2,7 +2,7 @@
 import { withBase } from 'vitepress'
 import { data as posts } from '../posts.data.ts'
 
-const xhsUrl = 'https://www.xiaohongshu.com/user/profile/5351887154'
+const xhsUrl = 'https://www.xiaohongshu.com/user/profile/62ef4376000000001f017147'
 const blogUrl = 'https://songshunlp.github.io/'
 
 const projects = [

@@ -45,3 +45,347 @@
   font-size: 13px;
   color: var(--vp-c-text-2);
 }
+
+/* ============================================================
+   首页（复刻 songshunlp.com 落地页风格，明暗自适应）
+   ============================================================ */
+.home {
+  min-height: 100vh;
+}
+
+.home-container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+/* ---------- Hero ---------- */
+.home-hero {
+  padding: 72px 0 56px;
+  text-align: center;
+  background: radial-gradient(ellipse at top, var(--vp-c-brand-soft) 0%, transparent 60%);
+}
+
+.home-hero-badges {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.home-badge {
+  display: inline-block;
+  padding: 5px 14px;
+  font-size: 13px;
+  font-weight: 600;
+  border-radius: 999px;
+  color: var(--vp-c-brand-1);
+  background: var(--vp-c-brand-soft);
+  border: 1px solid var(--vp-c-brand-1);
+}
+
+.home-hero-title {
+  font-size: 46px;
+  font-weight: 800;
+  line-height: 1.2;
+  margin: 0 0 8px;
+  color: transparent;
+  background: linear-gradient(120deg, var(--vp-c-brand-1), var(--vp-c-brand-2));
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+.home-hero-sub {
+  font-size: 22px;
+  font-weight: 600;
+  color: var(--vp-c-text-1);
+  margin: 0 0 12px;
+}
+
+.home-hero-tagline {
+  font-size: 15px;
+  color: var(--vp-c-text-2);
+  max-width: 640px;
+  margin: 0 auto 28px;
+  line-height: 1.7;
+}
+
+.home-hero-actions {
+  display: flex;
+  justify-content: center;
+  gap: 14px;
+  flex-wrap: wrap;
+}
+
+.home-btn {
+  display: inline-block;
+  padding: 12px 26px;
+  font-size: 15px;
+  font-weight: 600;
+  border-radius: 999px;
+  text-decoration: none;
+  transition: transform 0.2s, box-shadow 0.2s, background 0.2s;
+}
+
+.home-btn-primary {
+  color: #fff;
+  background: linear-gradient(120deg, var(--vp-c-brand-1), var(--vp-c-brand-2));
+  box-shadow: 0 8px 24px rgba(124, 92, 255, 0.28);
+}
+
+.home-btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 30px rgba(124, 92, 255, 0.38);
+}
+
+.home-btn-alt {
+  color: var(--vp-c-brand-1);
+  background: var(--vp-c-bg-soft);
+  border: 1px solid var(--vp-c-brand-1);
+}
+
+.home-btn-alt:hover {
+  transform: translateY(-2px);
+  background: var(--vp-c-brand-soft);
+}
+
+/* ---------- 通用分区 ---------- */
+.home-section {
+  padding: 48px 0;
+  border-top: 1px solid var(--vp-c-divider);
+}
+
+.home-section-title {
+  font-size: 26px;
+  font-weight: 700;
+  text-align: center;
+  margin: 0 0 8px;
+}
+
+.home-section-desc {
+  text-align: center;
+  color: var(--vp-c-text-2);
+  font-size: 14px;
+  max-width: 680px;
+  margin: 0 auto 28px;
+  line-height: 1.7;
+}
+
+/* ---------- 卡片网格 ---------- */
+.home-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 18px;
+}
+
+.home-grid-3 {
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
+
+.home-card {
+  display: flex;
+  flex-direction: column;
+  padding: 22px;
+  border-radius: 14px;
+  background: var(--vp-c-bg-soft);
+  border: 1px solid var(--vp-c-divider);
+  text-decoration: none;
+  transition: transform 0.2s, box-shadow 0.2s, border-color 0.2s;
+}
+
+.home-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 18px 40px rgba(124, 92, 255, 0.12);
+  border-color: rgba(124, 92, 255, 0.3);
+}
+
+.home-card-icon {
+  font-size: 30px;
+  margin-bottom: 12px;
+}
+
+.home-card h3 {
+  font-size: 17px;
+  font-weight: 700;
+  margin: 0 0 10px;
+  color: var(--vp-c-text-1);
+}
+
+.home-card p {
+  font-size: 14px;
+  color: var(--vp-c-text-2);
+  line-height: 1.7;
+  margin: 0 0 14px;
+  flex: 1;
+}
+
+.home-card-link {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--vp-c-brand-1);
+}
+
+.home-card:hover .home-card-link {
+  color: var(--vp-c-brand-2);
+}
+
+.home-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-bottom: 10px;
+}
+
+.home-tag {
+  font-size: 12px;
+  padding: 2px 10px;
+  border-radius: 999px;
+  color: var(--vp-c-brand-1);
+  background: var(--vp-c-brand-soft);
+}
+
+/* ---------- 数据统计 ---------- */
+.home-stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 20px;
+  text-align: center;
+}
+
+.home-stat {
+  padding: 24px 16px;
+  border-radius: 14px;
+  background: var(--vp-c-bg-soft);
+  border: 1px solid var(--vp-c-divider);
+}
+
+.home-stat-num {
+  font-size: 32px;
+  font-weight: 800;
+  color: transparent;
+  background: linear-gradient(120deg, var(--vp-c-brand-1), var(--vp-c-brand-2));
+  -webkit-background-clip: text;
+  background-clip: text;
+  margin-bottom: 6px;
+}
+
+.home-stat-label {
+  font-size: 13px;
+  color: var(--vp-c-text-2);
+}
+
+/* ---------- 博主介绍 ---------- */
+.home-about {
+  text-align: center;
+  max-width: 680px;
+  margin: 0 auto;
+}
+
+.home-about-lead {
+  font-size: 17px;
+  font-weight: 600;
+  color: var(--vp-c-text-1);
+  line-height: 1.7;
+}
+
+.home-about-desc {
+  font-size: 14px;
+  color: var(--vp-c-text-2);
+  line-height: 1.8;
+  margin-bottom: 20px;
+}
+
+.home-creds {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.home-cred {
+  padding: 6px 16px;
+  font-size: 13px;
+  font-weight: 600;
+  border-radius: 999px;
+  color: var(--vp-c-brand-1);
+  background: var(--vp-c-brand-soft);
+  border: 1px solid var(--vp-c-divider);
+}
+
+/* ---------- 学习路径 ---------- */
+.home-steps {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 18px;
+}
+
+.home-step {
+  padding: 22px;
+  border-radius: 14px;
+  background: var(--vp-c-bg-soft);
+  border: 1px solid var(--vp-c-divider);
+}
+
+.home-step-badge {
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 3px 12px;
+  border-radius: 999px;
+  color: var(--vp-c-brand-1);
+  background: var(--vp-c-brand-soft);
+  margin-bottom: 10px;
+}
+
+.home-step h3 {
+  font-size: 16px;
+  font-weight: 700;
+  margin: 0 0 8px;
+  color: var(--vp-c-text-1);
+}
+
+.home-step p {
+  font-size: 13px;
+  color: var(--vp-c-text-2);
+  line-height: 1.7;
+  margin: 0;
+}
+
+/* ---------- 底部 CTA ---------- */
+.home-cta {
+  text-align: center;
+  background: radial-gradient(ellipse at bottom, var(--vp-c-brand-soft) 0%, transparent 60%);
+}
+
+.home-cta h2 {
+  font-size: 22px;
+  font-weight: 700;
+  margin: 0 0 10px;
+}
+
+.home-cta p {
+  color: var(--vp-c-text-2);
+  font-size: 14px;
+  max-width: 560px;
+  margin: 0 auto 24px;
+  line-height: 1.7;
+}
+
+.home-more {
+  margin-top: 24px;
+}
+
+/* ---------- 移动端适配 ---------- */
+@media (max-width: 640px) {
+  .home-hero-title {
+    font-size: 32px;
+  }
+  .home-hero {
+    padding: 48px 0 40px;
+  }
+  .home-section {
+    padding: 36px 0;
+  }
+}
+

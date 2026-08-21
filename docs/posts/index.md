@@ -19,4 +19,4 @@ import { data as posts } from '../.vitepress/posts.data.ts'
   </li>
 </ul>
 
-> 每篇文章的源文件都在仓库 `docs/posts/` 下，欢迎提 [Issue](https://github.com/songshuNLP/blog/issues) 交流。
+> 每篇文章的源文件都在仓库 `docs/posts/` 下，欢迎提 [Issue](https://github.com/songshuNLP/songshunlp.github.io/issues) 交流。

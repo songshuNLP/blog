@@ -3,7 +3,7 @@ import { withBase } from 'vitepress'
 import { data as posts } from '../posts.data.ts'
 
 const xhsUrl = 'https://www.xiaohongshu.com/user/profile/5351887154'
-const blogUrl = 'https://songshunlp.github.io/blog/'
+const blogUrl = 'https://songshunlp.github.io/'
 
 const columns = [
   { icon: '🧠', title: '大模型', desc: '从部署、微调到应用落地，手把手源码级讲解', link: '/posts/' },

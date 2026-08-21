@@ -26,7 +26,7 @@ tags:
 ## 怎么互动
 
 - 文章底部评论区直接留言
-- 提 [Issue](https://github.com/songshuNLP/blog/issues) 交流
+- 提 [Issue](https://github.com/songshuNLP/songshunlp.github.io/issues) 交流
 - 关注公众号「兔老板工作室」（个人主页有二维码）
 
 下篇见 👋

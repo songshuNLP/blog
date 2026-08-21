@@ -5,12 +5,6 @@ import { data as posts } from '../posts.data.ts'
 const xhsUrl = 'https://www.xiaohongshu.com/user/profile/5351887154'
 const blogUrl = 'https://songshunlp.github.io/'
 
-const columns = [
-  { icon: '🧠', title: '大模型', desc: '从部署、微调到应用落地，手把手源码级讲解', link: '/posts/' },
-  { icon: '🕸️', title: '图深度学习', desc: '推荐、风控、广告、搜索等一线互联网真实场景', link: '/posts/' },
-  { icon: '🛠️', title: '编程实战', desc: '生产级项目拆解、架构设计与职场经验', link: '/posts/' },
-]
-
 const projects = [
   { icon: '🤖', title: 'Agent 评测平台', tags: ['Agent 评测', '失败归因'], desc: 'Agent 工具调用轨迹评测 + 失败模式自动归因，把大厂 Agent 评测方法论做成可运行平台。', link: 'https://www.songshunlp.com/app' },
   { icon: '🧪', title: '大模型评测平台', tags: ['幻觉率', 'RAG', 'LLM-as-Judge'], desc: '幻觉率检测 / RAG 忠实度 / LLM-as-Judge 多采样 / 配对显著性检验，完整评测链路一键跑通。', link: 'https://www.songshunlp.com/llm_eval' },
@@ -64,22 +58,7 @@ const steps = [
       </div>
     </section>
 
-    <!-- ========== 2. 专栏 ========== -->
-    <section class="home-section">
-      <div class="home-container">
-        <h2 class="home-section-title">技术专栏</h2>
-        <div class="home-grid home-grid-3">
-          <a v-for="c in columns" :key="c.title" class="home-card home-column" :href="withBase(c.link)">
-            <div class="home-card-icon">{{ c.icon }}</div>
-            <h3>{{ c.title }}</h3>
-            <p>{{ c.desc }}</p>
-            <span class="home-card-link">进入专栏 →</span>
-          </a>
-        </div>
-      </div>
-    </section>
-
-    <!-- ========== 3. 真实项目 ========== -->
+    <!-- ========== 2. 真实项目 ========== -->
     <section class="home-section">
       <div class="home-container">
         <h2 class="home-section-title">真实项目 · 在线可体验</h2>

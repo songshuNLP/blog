@@ -179,10 +179,6 @@
   gap: 18px;
 }
 
-.home-grid-3 {
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-}
-
 .home-card {
   display: flex;
   flex-direction: column;
